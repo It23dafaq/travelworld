@@ -1,0 +1,70 @@
+<div class="w-100 h-100 backgroundimageLogin position-relative" ></div>
+  <div class="container position-absolute marginLogin  text-center ">
+    <div class="row">  
+    <div class="col-8 formColor padding-0 opacity">
+        <div class="row mb-5 mt-3">
+          <div class="col">
+           <h1>Registration form</h1>
+          </div>
+        </div>
+         
+         
+          <div class="row justify-content-center mb-3">
+               <div class="col-auto">
+            <div class="example-container ">
+                <mat-form-field class="inputSameWidth" appearance="fill">
+                  <mat-label>Enter your email</mat-label>
+                  <input  matInput placeholder="pat@example.com" [formControl]="email" required>
+                  <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                </mat-form-field>
+              </div>
+            </div> 
+            <div class="col-auto ">
+           
+            </div>
+         
+        </div>
+        <div class="row justify-content-center mb-3">
+             <div class="col-auto">
+              <mat-form-field class="inputSameWidth"  appearance="fill">
+                <mat-label>Enter your password</mat-label>
+                <input matInput [type]="hide ? 'password' : 'text'" [formControl]="pass" required>
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+              </mat-form-field>
+             </div>
+             <div class="col-auto">
+              <mat-form-field class="inputSameWidth"  appearance="fill">
+                <mat-label>Confirm Password</mat-label>
+                <input matInput [type]="hide ? 'password' : 'text'" [formControl]="pass1" required>
+                <button mat-icon-button matSuffix (click)="hideconfrim = !hideconfrim" [attr.aria-label]="'Hide confirm password'" [attr.aria-pressed]="hideconfrim">
+                <mat-icon>{{hideconfrim ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+              </mat-form-field>
+            </div>
+        </div>
+        <div class="row justify-content-center text-danger" *ngIf="hasError">
+          <h5>Password not match</h5>
+        </div>
+        <div class="row justify-content-center mb-3">
+          <mat-form-field appearance="fill">
+            <mat-label>Select</mat-label>
+            <mat-select>
+              <mat-option value="Enduser">Company acc</mat-option>
+              <mat-option value="Simpleuser">Simple acc</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="row mb-5 offset-5">
+          
+          <div class="col-auto">
+            <div class="example-button-row">
+            <button class="signupButtons" mat-raised-button color="primary"  (click)="submit()">Submit</button>
+          </div>
+          </div>
+        </div>
+     </div>
+    </div>
+    
+  </div>

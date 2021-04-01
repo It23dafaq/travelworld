@@ -1,0 +1,36 @@
+.boxshadow{
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  }
+
+  .marginLogin {
+    /* margin-top:200px ; */
+    top: 100px;
+    left: 400px;
+
+}
+.backgroundimageLogin{
+    background-image: url('/assets/img/bgcolorsignup1.jpg');
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+  }
+  .signupButtons{
+    width: 100px !important;
+    height: 45px !important;
+  }
+  .example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+.inputSameWidth{
+  width: 220px !important;
+}
+.formColor{
+  /* background-color: #3caea3 !important; */
+  background-image: url('/assets/img/registerbg.jpg');
+  
+}

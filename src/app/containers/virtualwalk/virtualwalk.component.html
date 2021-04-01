@@ -1,0 +1,22 @@
+<!-- <app-navbar></app-navbar> -->
+<div class="position-relative">
+    <img class="d-block w-100 " src="/assets/img/level_1_back.jpg" alt="Galeeriano">
+       
+       <img class="number1" [ngClass]="{'changecolors': selected === 1}" (click)="selectedNumber(1)"> 
+       <img class="number2" [ngClass]="{'changecolors': selected === 2}" (click)="selectedNumber(2)" >
+       <img class="number3" [ngClass]="{'changecolors': selected === 3}"(click)="selectedNumber(3)" >
+       <img class="number4" [ngClass]="{'changecolors': selected === 4}" (click)="selectedNumber(4)">
+       <img class="number5" [ngClass]="{'changecolors': selected === 5}" (click)="selectedNumber(5)" >
+
+       <div class="dashWrapper text-center">
+        
+            <img class="img-width mb-3 vaMiddle" src="/assets/img/btn_takeawalk_black.png" alt="Galeeriano">
+            <div class="text-container ">
+            <h5 >{{'open_lights' | translate}}</h5>
+            <h5>{{'open_lights1' | translate}} </h5>
+        </div>
+    </div>
+
+      
+       
+</div>

@@ -1,0 +1,20 @@
+
+.nav-img-logo{
+    width: 150px;
+    height: 40px;
+   }
+   @media only screen 
+
+and (min-height: 600px) and (max-height:850px)
+{
+    .nav-img-logo{
+        width: 150px;
+        height: 25px;
+    }
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+}

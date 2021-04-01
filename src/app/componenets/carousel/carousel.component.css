@@ -1,0 +1,32 @@
+p, h5
+{
+    color: yellow;
+}
+
+.carousel-item
+{
+    height: 95vh;
+}
+
+img
+{
+    width: 20vh;
+}
+ .button-position{
+  /* bottom:10% !important; */
+  height: 10%;
+  width: 10;
+  top: 88% !important;
+} 
+.button-background{
+    background-color: grey;
+    opacity: 0.8;
+}
+.button-design{
+  height: 10%;
+  width: 10%;
+}
+.span-style{
+    width: 45px !important;
+    height: 45px  !important;
+}

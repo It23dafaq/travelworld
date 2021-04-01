@@ -1,0 +1,90 @@
+<div class="imgViewerContainer bg-white">
+    <img class=" imgViewer" src="/assets/img/bg.jpg" alt="Galeeriano" (click)="open3DModel()">
+</div>
+    <button mat-icon-button class="close-button" [mat-dialog-close]="true">
+    <mat-icon class="close-icon" color="warn">X</mat-icon>
+  </button>
+<!-- <h1>Favorite Animal</h1> -->
+<img  mat-dialog-title class="img-width mb-4 vaMiddle" src="/assets/img/btn_takeawalk_black.png" alt="Galeeriano">
+<div mat-dialog-content>
+   <div class="row ml-7">
+       <div class="col" *ngFor="let dataPlace of dataPlaces; let i=index">
+           <h5 class="numbers" [ngClass]="{'changecolors': selected === i+1}" (click)="changedata(i+1)">{{i+1}}</h5>
+       </div>
+       <!-- <div class="col">
+        <h5 class="numbers" [ngClass]="{'changecolors': selected === 2}" (click)="changedata(2)">2</h5>
+       </div>
+       <div class="col">
+        <h5 class="numbers" [ngClass]="{'changecolors': selected === 3}" (click)="changedata(3)">3</h5>
+       </div>
+       <div class="col">
+        <h5 class="numbers" [ngClass]="{'changecolors': selected === 4}" (click)="changedata(4)">4</h5>
+       </div>
+       <div class="col">
+        <h5 class="numbers" [ngClass]="{'changecolors': selected === 5}" (click)="changedata(5)">5</h5>
+       </div> -->
+
+   </div>
+   <div class="row bbdot mb-2"></div>
+   <div class="row ml-7 mb-2">
+    <div class="col" *ngFor="let dataPlace of dataPlaces; let i=index">
+        <h5 class=""  *ngIf="selected === i+1" [innerHtml]="products.name | translate"></h5>
+    </div>
+    <!-- <div class="col">
+     <h5 class="" *ngIf="selected === 2" [innerHtml]="products.name | translate"></h5>
+    </div>
+    <div class="col">
+     <h5 class="" *ngIf="selected === 3" [innerHtml]="products.name | translate"></h5>
+    </div>
+    <div class="col">
+     <h5 class="" *ngIf="selected === 4" [innerHtml]="products.name | translate"></h5>
+    </div>
+    <div class="col">
+     <h5 class="" *ngIf="selected === 5" [innerHtml]="products.name | translate"></h5>
+    </div>
+   </div> -->
+    </div>
+   <div class="row  mb-4 ml-8 ">
+       <div class="col-1 mr-3">
+        <img class=" mb-2 vaMiddle img-width-info" src="/assets/img/info_icon.png" alt="Galeeriano">
+       </div>
+       <div class="col mt-3">
+           <h5 [innerHtml]="products.desc | translate"></h5>
+       </div>
+   </div>
+   <div class="row justify-content-center">
+       <h3 class="text-center">{{'images' | translate}}</h3>
+   </div>
+   <div class="row coffset mb-2">
+   
+   </div>
+   <div class="row bbdot-carousel mb-4"></div>
+   <div class="row  mb-4 ml-8 ">
+    <div class="col-1 mr-3">
+     <img class=" mb-2 vaMiddle img-width-info" src="/assets/img/info_icon.png" alt="Galeeriano">
+    </div>
+    <div class="col mt-3">
+        <h5 [innerHtml]="products.desc | translate"></h5>
+    </div>
+</div>
+<div class="row  mb-4 ml-8 ">
+    <div class="col-1 mr-3">
+     <img class=" mb-2 vaMiddle img-width-info" src="/assets/img/info_icon.png" alt="Galeeriano">
+    </div>
+    <div class="col mt-3">
+        <h5 [innerHtml]="products.desc | translate"></h5>
+    </div>
+</div>
+<div class="row bbdot-carousel mb-4"></div>
+   <div class="row customOffset bottom-buttons">
+     <div class="col mr-5">
+        <img class=" mb-4 vaMiddle img-bottom-width" src="/assets/img/bottombtn_location.png" alt="Galeeriano" (click)="open3DModel()">
+     </div>
+     <div class="col mr-5">
+        <img class=" mb-4 vaMiddle img-bottom-width" src="/assets/img/bottombtn_scan.png" alt="Galeeriano">
+    </div>
+    <div class="col mr-5">
+        <img class=" mb-4 vaMiddle img-bottom-width" src="/assets/img/bottombtn_3d.png" alt="Galeeriano">
+    </div>
+   </div>
+</div>

@@ -1,0 +1,848 @@
+.dashWrapper{
+    position: absolute;
+    padding: 30px 30px;
+    top: 30%;
+    left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    overflow: hidden;
+    width: 660px;
+    height: 360px;
+    font-size: 19px;
+}
+.start_gamewrapper{
+  padding: 30px 30px;
+  background-color: black;
+}
+.img-width{
+    
+  height: 150px;
+  width: 200px;
+}
+.img-width-1{
+  max-width: 30%;
+  max-height: 20%;
+  height: 100px;
+  width: 200px;
+}
+@media only screen 
+
+and (min-height: 600px) and (max-height:850px)
+ {
+  .dashWrapper{
+    position: absolute;
+    padding: 10px 10px;
+    top: 30%;
+    left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    overflow: hidden;
+    width: 530px;
+    height: 300px;
+    font-size: 16px;
+  }
+ }
+ .elementToFadeInAndOut {
+   z-index: 10;
+  opacity: 0;
+  display: none;
+  animation: fade 2s linear;
+}
+
+
+@keyframes fade {
+0% { opacity: 1 }
+50% { opacity: 0,5 }
+100% {opacity: 0; }
+}
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Portrait */
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Landscape */
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Portrait */
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Landscape */
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+
+} */
+
+/* Portrait */
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+
+} */
+
+/* Landscape */
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+
+} */
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Portrait */
+/* @media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+
+} */
+
+/* Landscape */
+/* @media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Portrait */
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Landscape */
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+/* @media screen 
+  and (device-width: 280px) 
+  and (device-height: 653px) 
+   {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 5%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 90%;
+        height: 82%;
+        font-size: 9px;
+    }
+
+} */
+/* @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+
+} */
+/* Portrait */
+/* @media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Landscape */
+/* @media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+} */
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+/* @media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 10%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Portrait */
+/* @media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 8%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Landscape */
+/* @media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 8%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+/* @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 8%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Portrait */
+/* @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 8%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+
+/* Landscape */
+/* @media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 8%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 85%;
+        height: 80%;
+        font-size: 11px;
+    }
+} */
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */
+
+/* Portrait */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */
+
+/* Landscape */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */
+
+/* Portrait */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */
+
+/* Landscape */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+/* @media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+/* @media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+/* @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+/* @media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dashWrapper{
+        position: absolute;
+        padding: 15px 12px;
+        top: 15%;
+        left: 14%;
+        background-color: white;
+        opacity: 0.8;
+        text-align: center;
+        overflow: hidden;
+        width: 73%;
+        height: 60%;
+        font-size: 11px;
+    }
+} */

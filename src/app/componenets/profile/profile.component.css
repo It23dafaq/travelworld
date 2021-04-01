@@ -1,0 +1,26 @@
+.profile-wraper{
+    width: 100%;
+    height: 100%;
+}
+
+.round-avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} 
+.first-row-background{
+    background-color: khaki !important;
+}
+.post-bg-color{
+    background-color: lightgray;
+}
+.info-card{
+ left: 49.5%;
+ top:30%;
+}
+
+.info-items{
+    border-radius: 18%;
+    background-color: khaki;
+    padding: 28%;
+}

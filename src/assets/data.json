@@ -1,0 +1,28 @@
+[
+    {
+        "name":"area_1",
+        "desc":"desc_1",
+        "img":"/assets/img/human.jpg"
+    },
+    {
+        "name":"area_2",
+        "desc":"desc_2",
+        "img":"/assets/img/human.jpg"
+    },
+    {
+        "name":"area_3",
+        "desc":"desc_3",
+        "img":"/assets/img/human.jpg"
+    },
+    {
+        "name":"area_4",
+        "desc":"desc_4",
+        "img":"/assets/img/human.jpg"
+    },
+    {
+        "name":"area_5",
+        "desc":"desc_5",
+        "img_1":"/assets/img/human.jpg"
+    }
+
+]

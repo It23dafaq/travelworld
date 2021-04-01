@@ -1,0 +1,159 @@
+.dialogContainer{
+ position: absolute;
+ right: 0px;
+ top: 100px;
+ height: 100% !important;
+ width: 43% !important ;
+}
+.imgViewerContainer{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 55%;
+    height: 100%;
+}
+.bottom-buttons{
+    position: fixed;
+    bottom: 0;
+   
+}
+.imgViewer{
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-top: 4.5rem;
+    height: 80%;
+}
+
+  .close-button{
+    float: right;
+    top:-24px;
+    right:-24px;
+  }
+  
+  .close-icon {
+    transition: 1s ease-in-out;
+  }
+.mat-dialog-container {
+    position: absolute;
+ right: 0px;
+ top: 0;
+ height: 100% !important;
+ width: 43% !important ;
+  }
+  /* ::ng-deep.mat-dialog-container {
+position: absolute;
+ right: 0px;
+
+ top: 0px;
+ height: 100% !important;
+ width: 45% !important ;
+ overflow: hidden;
+ }
+ ::ng-deep.mat-dialog-content {
+  
+ overflow: visible;
+ }
+ ::ng-deep.cdk-overlay-dark-backdrop {
+    background: none; 
+} */
+:ng-deep.mat-dialog-content {
+  
+    overflow: visible;
+    }
+    ::ng-deep.cdk-overlay-dark-backdrop {
+       background: none; 
+   } 
+.img-width-info{
+    
+    width: 45px;
+    
+}
+.img-width{
+    
+    height: 9%;
+    margin-left: 47%;
+}
+.img-bottom-width{
+    width: 70px;
+}
+.ml-7{
+   margin-left:  3.5rem!important;
+}
+.ml-8{
+    margin-left:  5.5rem!important;
+ }
+.bbdot{
+   
+    border-bottom: 4px dotted #1387C4;
+}
+.bbdot-carousel{
+   
+    border-bottom: 4px solid #E8E8E8;
+}
+.coffset{
+    margin-left:3.676667%;
+    
+
+}
+.customOffset{
+    margin-left: 5.333333% !important;
+}
+
+.numbers{
+    border-radius: 50%;
+    width: 49px;
+    height: 49px;
+    padding: 5px;
+    background: #E8E8E8;
+    border: 1px solid #E8E8E8;
+    color: #1387C4; 
+    text-align: center;
+    font: 32px Arial, sans-serif;
+   
+}
+.changecolors{
+    background: black !important;
+    border: 2px solid black !important;
+}
+@media only screen 
+
+and (min-height: 600px) and (max-height:850px)
+ {
+    .numbers{
+        border-radius: 50%;
+        width: 41px;
+        height: 41px;
+        padding: 2px;
+        background: #E8E8E8;
+        border: 1px solid #E8E8E8;
+        color: #1387C4; 
+        text-align: center;
+        font: 28px Arial, sans-serif;
+       
+    }
+    .ml-7{
+        margin-left:  1rem!important;
+     }
+     .img-width-info{
+    
+        width: 28px;
+        
+    }
+    .ml-8{
+        margin-left:  1.5rem!important;
+     }
+     h5{
+        font-size: 1rem;
+     }
+     h3{
+         font-size: 1.25rem;
+     }
+     .customOffset{
+        margin-left: 7.333333%;
+    }
+    .img-bottom-width{
+        width: 50px;
+    }
+} 
